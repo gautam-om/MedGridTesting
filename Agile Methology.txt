@@ -1,0 +1,296 @@
+Agile Scrum for Testers
+
+
+What is agile and scrum?
+
+•        Agile meaning: Able to move quickly and easily.
+
+•        Scrum meaning: a Rugby play
+
+Agile Scrum:
+
+•        It is an iterative and incremental agile software development framework for managing product development.
+
+•        It defines a flexible product development strategy where a development team works as a unit to reach a common goal.
+
+•        It is an Incremental and Iterative model.
+
+•        It is a self- organized and focused team.
+
+•        No huge document, rather have precise and to point stories.
+
+•        Close communication with user Representative.
+
+•        Have definite time lines of 1 week to 4 weeks
+
+•        Instead of doing everything at a time scrum does a little of everything at a given interval.
+
+•        Resources capability and availability is considered before committing any thing.
+
+Why Agile Scrum?
+
+•        Incremental approach breaks complex projects down into simpler mini-projects
+
+•        Accommodates change easily
+
+•        Improves ROI through frequent and regular delivery of value to the business
+
+•        Increased business involvement and satisfaction
+
+•        Increased visibility (progress, obstacles, risks, etc) Reasons to use Agile
+
+•        Lower development risk, higher quality, less defects
+
+•        Shorter cycles produce working software and incremental product quickly
+
+•        Progress measured by running tested software
+
+•        Early and regular process improvement driven by frequent inspection
+
+
+
+Agile Scrum overview:
+
+
+
+
+
+ Advantages
+
+•        We can save time and cost of the project.
+
+•        The quality can be ensured because each and every sprint will be tested multiple times.
+
+•        The requirements change can be accepted at any level of the project maintenance.
+
+•        All are participating in Scrum meting so that transparency can be maintained.
+
+•        Each and every sprint we are delivering to the client so we can maintain the customer’s satisfaction and we can avoid delivery risk of the project.
+
+Scrum Terminology
+
+—   Roles : Product Owner, Scrum Master, Team
+
+—   Ceremonies : Sprint Planning, Sprint Review, Sprint Retrospective, & Daily Scrum Meeting
+
+—   Artifacts : Product Backlog, Sprint Backlog, and Burn down Chart
+
+
+
+
+
+Product Owner
+—   Define the features of the product
+
+—    Decide on release date and content
+
+—    Be responsible for the profitability of the product (ROI)
+
+—    Prioritize features according to market value
+
+—    Adjust features and priority every iteration, as needed
+
+—    Accept or reject work results.
+
+The Scrum Master
+—   Represents management to the project
+
+—    Responsible for enacting Scrum values and practices
+
+—    Removes impediments
+
+—    Ensure that the team is fully functional and productive
+
+—    Enable close cooperation across all roles and functions
+
+—    Shield the team from external interferences
+
+Scrum Team
+—   Typically 5-10 people
+
+—    Cross-functional
+
+—    QA, Programmers, UI Designers, etc.
+
+—    Members should be full-time
+
+Meetings
+—   Sprint Planning Meeting
+
+—    Daily Scrum
+
+—    Sprint Review Meeting
+
+—    Sprint Retrospective Meeting
+
+Daily Scrum Meeting
+
+—   Parameters
+
+—    Daily
+
+—    15-minutes
+
+—    Stand-up
+
+—    Not for problem solving
+
+—    Three questions:
+
+—    What did you do yesterday
+
+—    What will you do today?
+
+—    What obstacles are in your way?
+
+
+
+Sprint Review Meeting
+
+—   Team presents what it accomplished during the sprint
+
+—    Typically takes the form of a demo of new features or underlying architecture
+
+—    Informal
+
+—    2-hour prep time rule
+
+—    Participants
+
+—    Customers
+
+—    Management
+
+—    Product Owner
+
+—    Other engineers
+
+Sprint Retrospective Meeting
+
+—   Scrum Team only
+
+—   Feedback meeting
+
+—    Three questions
+
+—    What went well
+
+—    What went wrong
+
+—    What can be done(Improvement)
+
+—    Don’t skip for the first 5-6 sprints!!!
+
+
+
+
+
+Frequently Asked Questions
+
+Q1) What is Agile Testing?
+
+•        Agile Testing is a practice that a QA follows in a dynamic environment where testing requirements keep changing according to the customer needs.
+
+•        It is done parallel to the development activity where testing team receives frequent small codes from the development team for testing.
+
+Q2) Who are involved in Scrum cycle?
+
+•        Product Owner: Manages the product backlog. PO is the voice of the business and create new features to be developed for the application.
+
+•        Scrum Master: Responsible for managing the sprint, remove any impediments and keeps track of the progress of the project.
+
+•        Scrum Team: Composed of developers, designers and QA. This forms the team which is responsible for delivering high quality software.
+
+Q3) what is the difference b/w Product backlog and sprint backlog?
+
+•        Product backlog: It contains a list of all desired features/user stories and is owned by the product owner
+
+•        Sprint backlog: It is a subset of the product backlog owned by development team and commits to deliver it in a sprint. It is created in Sprint Planning Meeting
+
+Q4) what is an epic, user stories and task?
+
+•        Epic: A customer described software feature that is itemized in the product backlog is known as epic. Epics are sub-divided into stories
+
+•        User Stories: From the client perspective user stories are prepared which defines project or business functions, and it is delivered in a particular sprint as expected.
+
+•        Task: Further down user stories are broken down into different task
+
+Q5) what is burn-up and burn-down chart?
+
+To track the project progress burn-up and burn down, charts are used
+
+•        Burn-up Chart: It shows the progress of stories done over time
+
+•        Burn-down Chart: It shows how much work was left to do overtime
+
+
+   
+Q6) What is story points/efforts/ scales?
+
+It is used to discuss the difficulty of the story without assigning actual hours.
+
+•        The most common scale used is a Fibonacci sequence ( 1,2,3,5,8,13,….100).
+
+•        Some teams use linear scale (1,2,3,4….),
+
+Example: Cloth size (XS, S ,M,L, XL)
+
+Q7) What is ‘Testing is done’ in Agile?
+
+The below testing are done then test engineer can say ‘Testing is done’
+
+•        The primary testing activities during Agile is -
+ü  Automated unit testing
+
+ü   Exploratory testing.
+
+•    Tester will execute -
+ü  Functional and
+
+ü   Non-functional tests on AUT
+
+ü   Regression
+
+Q8) Explain Velocity in Agile?
+
+•        Velocity is a metric that is calculated by addition of all efforts estimates associated with user stories completed in a iteration.
+
+•        It predicts how much work Agile can complete in a sprint and how much time will require to complete a project.
+
+Q9) Explain the difference between traditional Waterfall model and Agile testing?
+
+•        Agile testing is done parallel to the development activity whereas in traditional waterfall model testing is done at the end of the development.
+
+•        As done in parallel, agile testing is done on small features whereas in waterfall model testing is done on whole application
+
+Q10) Explain the Iterative and Incremental Development in Agile?
+
+•        Agile testing is done parallel to the development activity whereas in traditional waterfall model testing is done at the end of the development.
+
+•        As done in parallel, agile testing is done on small features whereas in waterfall model testing is done on whole application
+
+
+
+ Q11) How QA can add a value to an agile team?
+
+•        QA can provide a value addition by thinking differently about the various scenarios to test a story. They can provide quick feedback to the developers whether new functionality is working fine or not
+
+Q12) What is importance of daily stand up meeting?
+
+Daily stand up meeting is essential for any team in which-
+
+•        Team discuss about how much work has been completed.
+
+•        What are the plans to resolve technical issues.
+
+•        What steps need to done to complete the projects etc
+
+Q13) What is Agile manifesto?
+
+•        Agile manifesto defines an iterative and people-centric approach to software development.
+
+•        It has basically 4 key values and 12 principles
+
+Q14) What is re-factoring?
+
+Modification of the code without changing its functionality to improve the performance is called re-factoring.

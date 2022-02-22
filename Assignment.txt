@@ -1,0 +1,107 @@
+
+package Com.medGrids.MeticScripts;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+/**
+ * @author Om Prakash Gautam
+ *
+ */
+public class Voereir {
+	// Senior Software Engineer in Test Assignment = 1.1
+	WebDriver driver;
+	@Test(priority=1)
+	public void  homeTest()
+	{
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.get("https://voereir.com/");
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		//click on Home
+		driver.findElement(By.xpath("//a[@class='NavLink active undefined']")).click();
+		
+		//verify working home Module
+		WebElement verifypage = driver.findElement(By.xpath("//span[text()='Cloud Successful']"));
+		String verifytext = verifypage.getText();
+		Assert.assertEquals(verifytext,"Cloud Successful");	
+	}
+	
+	@Test(priority=2)
+	public void aboutusTest()
+	{
+		//click on about us
+		driver.findElement(By.xpath("//a[text()='About us']")).click();
+		
+		//verify working About US Module
+		String verifyaboutus = driver.findElement(By.xpath("//h2[text()='About VoerEir']")).getText();
+		Assert.assertEquals(verifyaboutus, "About VoerEir");
+	}
+	
+	@Test(priority=3)
+	public void offeringTest()
+	{
+		//click on offering
+		driver.findElement(By.xpath("//span[text()='Offerings']")).click();
+		
+		WebElement moveelement = driver.findElement(By.xpath("//a[text()='Certification']"));
+		Actions action = new Actions(driver);
+		action.moveToElement(moveelement).click().perform();
+		
+		String verifyoffering = driver.findElement(By.xpath("//h2[text()='NFVI Certification']")).getText();
+		Assert.assertEquals(verifyoffering, "NFVI Certification");
+	}
+	
+	@Test(priority=4)
+	public void resounceText()
+	{
+		driver.findElement(By.xpath("//span[text()='Resources']")).click();
+		
+		//verify to Resounce
+		
+		WebElement moveelement1 = driver.findElement(By.xpath("//a[text()='Careers']"));
+		Actions action = new Actions(driver);
+		action.moveToElement(moveelement1).click().perform();
+		
+		String verifyresource = driver.findElement(By.xpath("//h2[text()='We are Hiring!']")).getText();
+		Assert.assertEquals(verifyresource, "We are Hiring!");
+	}
+	
+	@Test(priority=5)
+	public void contactText()
+	{
+		// click on Contact
+		driver.findElement(By.xpath("//a[text()='Contact']")).click();
+		
+		//verify to Contact
+		
+		String verifyContect = driver.findElement(By.xpath("//h4[text()='Contact us']")).getText();
+		Assert.assertEquals(verifyContect,"Contact us");
+	}
+	// Senior Software Engineer in Test Assignment = 1.2
+	@Test(priority=6)
+	public void contactform()
+	{
+		driver.findElement(By.name("name")).sendKeys("Om Prakash Gautam");
+		driver.findElement(By.name("email")).sendKeys("opgautam5pk@gmail.com");
+		driver.findElement(By.name("phone")).sendKeys("9453994974");
+		WebElement dropoption = driver.findElement(By.name("location"));
+		dropoption.click();
+		Select sel = new Select(dropoption);
+		sel.selectByValue("India");
+		driver.findElement(By.name("subject")).sendKeys("Selenium");
+		driver.findElement(By.name("message")).sendKeys("i am late submit my SSE Assignment");
+		driver.findElement(By.xpath("//button[text()='Submit']")).click();
+	}
+}

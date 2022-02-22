@@ -1,0 +1,4 @@
+Qustion:- What is DataBaseTesting?
+Answer:- Validate Existing of value in database table.
+Validate correctness of value in database table.
+Validate Validate Compleness of value in database Table. 
